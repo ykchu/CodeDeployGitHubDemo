@@ -1,0 +1,5 @@
+#!/bin/bash
+index_file="/var/www/html/index.html"
+if [[ -f  $index_file ]]; then
+    rm -rf $index_file        
+fi
